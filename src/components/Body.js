@@ -3,7 +3,7 @@ import axios from "axios";
 
 const Body = (props) => {
   const baseURL =
-    "http://api.weatherapi.com/v1/current.json?key=a19d19d5317a40198b762206222204&q=tokyo&aqi=no";
+    "https://api.weatherapi.com/v1/current.json?key=a19d19d5317a40198b762206222204&q=Tokyo&aqi=no";
   //   const config = {
   //     headers: {
   //       key: a19d19d5317a40198b762206222204,
