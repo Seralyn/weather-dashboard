@@ -70,7 +70,7 @@ const Body = (props) => {
             <div className="card">
                 <div className="text-2xl">Barometric Pressure:</div>
                 <div className="text-xl" id="dataOutputBarPress">
-                    {weatherData && weatherData.current.pressuer_mb} mb
+                    {weatherData && weatherData.current.pressure_mb} mb
                 </div>
             </div>
 
