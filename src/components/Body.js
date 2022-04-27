@@ -64,7 +64,7 @@ const Body = (props) => {
                 </div>
             </div>
             <div className="text-black text-4xl mt-12">Current Weather</div>
-            <div className="mt-8 flex flex-wrap gap-6 justify-evenly text-black px-32">
+            <div className="mt-8 flex flex-wrap lg:gap-6 justify-evenly text-black lg:px-32">
                 <div className="card">
                     <div>
                         <img src={sun} className="weather-icon" alt="" />

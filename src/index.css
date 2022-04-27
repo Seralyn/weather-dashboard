@@ -11,16 +11,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
     /* background-color: rgb(115, 116, 119); */
     /* background: rgb(209, 174, 238); */
-    /* background: linear-gradient(
+    background: linear-gradient(
         rgb(160, 157, 243) 0%,
         rgba(174, 174, 238, 1) 0%,
         rgba(189, 216, 177, 1) 31%,
         rgba(255, 209, 154, 1) 54%,
         rgba(223, 168, 226, 1) 81%,
         rgb(146, 128, 218) 100%
-    ); */
-    /* backdrop-filter: blur(2px); */
-    background-image: url(img/background-image.jpg);
+    );
+    /* backdrop-filter: blur(2px);
+    background-image: url(img/background-image.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +34,7 @@ code {
 }
 
 .card {
-    @apply rounded-2xl w-72 h-fit p-6 shadow-xl shadow-black my-10 mx-6 flex flex-col justify-center items-center text-black bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200;
+    @apply rounded-2xl w-72 h-fit p-6 shadow-xl shadow-black my-10 mx-6 flex flex-col justify-center items-center text-black bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-60 border border-gray-200;
 }
 
 .btn {

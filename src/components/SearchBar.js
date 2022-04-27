@@ -26,7 +26,11 @@ export default function SearchBar(props) {
                     onChange={cityInputHandler}
                     value={enteredCity}
                 />
-                <button type="submit" value="Submit" className="btn ml-3">
+                <button
+                    type="submit"
+                    value="Submit"
+                    className="btn mt-5 lg:mt-0 ml-3"
+                >
                     Submit
                 </button>
             </form>
