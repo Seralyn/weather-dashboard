@@ -9,7 +9,7 @@ body {
     font-family: "Maven Pro", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(94, 96, 105);
+    background-color: rgb(115, 116, 119);
 }
 
 code {
@@ -18,11 +18,11 @@ code {
 }
 
 .card {
-    @apply rounded-2xl w-72 h-fit p-6 shadow-xl shadow-black my-10 mx-6 bg-slate-300 flex flex-col justify-center items-center text-black;
+    @apply rounded-2xl w-72 h-fit p-6 shadow-xl shadow-black my-10 mx-6 bg-gray-300 flex flex-col justify-center items-center text-black;
 }
 
 .btn {
-    @apply text-white bg-slate-700 rounded-lg py-1 px-2 hover:bg-slate-500 hover:cursor-pointer;
+    @apply text-white bg-gray-700 rounded-lg py-1 px-2 hover:bg-gray-500 hover:cursor-pointer;
 }
 
 .weather-icon {
