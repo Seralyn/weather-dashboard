@@ -15,8 +15,8 @@ export default function SearchBar(props) {
     };
 
     return (
-        <div className="mt-6 flex flex-col justify-center items-center">
-            <div className="text-white mb-4">
+        <div className="mt-6 flex flex-col justify-center items-center ">
+            <div className="text-black mb-4 ">
                 Enter a city below to find your local weather.
             </div>
             <form onSubmit={submitHandler}>
