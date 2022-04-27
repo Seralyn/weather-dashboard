@@ -27,8 +27,8 @@ const Body = (props) => {
     }
 
     return (
-        <div className="mt-8 flex flex-wrap gap-6 justify-evenly text-white px-5">
-            <div className="card">
+        <div className="mt-8 flex flex-wrap gap-6 justify-evenly text-white px-32 pt-16">
+            {/* <div className="card">
                 <div className="text-2xl">Country:</div>
                 <div className="text-xl" id="dataOutputCountry">
                     {weatherData && weatherData.location.country}
@@ -40,9 +40,12 @@ const Body = (props) => {
                 <div className="text-xl" id="dataOutputCity">
                     {weatherData && weatherData.location.name}
                 </div>
-            </div>
+            </div> */}
 
             <div className="card">
+                <div>
+                    <img src={sun} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Current Conditions:</div>
                 <div className="text-xl" id="dataOutputCondition">
                     {weatherData && weatherData.current.condition.text}
@@ -51,7 +54,11 @@ const Body = (props) => {
 
             <div className="card">
                 <div>
-                    <img src={celsius} className="weather-icon" alt="" />
+                    <img
+                        src={celsius}
+                        className="h-[4.5rem] mb-[10px]"
+                        alt=""
+                    />
                 </div>
                 <div className="text-2xl">Temperature:</div>
                 <div className="text-xl" id="dataOutputTemp">
@@ -60,6 +67,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={humidity} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Humidity:</div>
                 <div className="text-xl" id="dataOutputHumidity">
                     {weatherData && weatherData.current.humidity} %
@@ -67,6 +77,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={wind} className="h-24" alt="" />
+                </div>
                 <div className="text-2xl">Wind Speed:</div>
                 <div className="text-xl" id="dataOutputWindSPD">
                     {weatherData && weatherData.current.wind_kph} kph
@@ -74,6 +87,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={compass} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Wind Direction:</div>
                 <div className="text-xl" id="dataOutputWindDIR">
                     {weatherData && weatherData.current.wind_dir}
@@ -81,6 +97,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={gauge} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Barometric Pressure:</div>
                 <div className="text-xl" id="dataOutputBarPress">
                     {weatherData && weatherData.current.pressure_mb} mb
@@ -88,6 +107,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={visibility} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Visibility:</div>
                 <div className="text-xl" id="dataOutputVisibility">
                     {weatherData && weatherData.current.vis_km} km
@@ -95,6 +117,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={cloud} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Cloud Cover:</div>
                 <div className="text-xl" id="dataOutputCloudCover">
                     {weatherData && weatherData.current.cloud} %
