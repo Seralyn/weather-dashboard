@@ -18,11 +18,11 @@ code {
 }
 
 .card {
-    @apply rounded-md w-72 h-fit p-6 shadow-lg shadow-black bg-slate-300 flex flex-col justify-center items-center text-black;
+    @apply rounded-2xl w-72 h-fit p-6 shadow-xl shadow-black my-10 mx-6 bg-slate-300 flex flex-col justify-center items-center text-black;
 }
 
 .btn {
-    @apply text-white bg-slate-500 rounded-lg py-1 px-2 hover:bg-slate-400 hover:cursor-pointer;
+    @apply text-white bg-slate-700 rounded-lg py-1 px-2 hover:bg-slate-500 hover:cursor-pointer;
 }
 
 .weather-icon {
