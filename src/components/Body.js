@@ -1,6 +1,16 @@
 import React from "react";
 import axios from "axios";
 import { useState } from "react";
+import sun from "../img/sunny-day.png";
+import celsius from "../img/celsius.png";
+import cloud from "../img/cloud.png";
+import compass from "../img/compass.png";
+import gauge from "../img/gauge.png";
+import humidity from "../img/humidity.png";
+import rainy from "../img/rainy.png";
+import temperatureGauge from "../img/temperature.png";
+import visibility from "../img/visibility.png";
+import wind from "../img/wind.png";
 
 const Body = (props) => {
     const [weatherData, setWeatherData] = useState("");
@@ -40,6 +50,9 @@ const Body = (props) => {
             </div>
 
             <div className="card">
+                <div>
+                    <img src={celsius} className="weather-icon" alt="" />
+                </div>
                 <div className="text-2xl">Temperature:</div>
                 <div className="text-xl" id="dataOutputTemp">
                     {weatherData && weatherData.current.temp_c} degrees

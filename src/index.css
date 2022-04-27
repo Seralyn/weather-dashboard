@@ -5,22 +5,26 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  font-family: "Maven Pro", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(48, 53, 71);
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(48, 53, 71);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
 .card {
-  @apply rounded-md w-72 h-fit p-6 shadow-lg shadow-black bg-slate-700;
+    @apply rounded-md w-72 h-fit p-6 shadow-lg shadow-black bg-slate-700 flex flex-col justify-center items-center;
 }
 
 .btn {
-  @apply text-white bg-slate-500 rounded-lg py-1 px-2 hover:bg-slate-400 hover:cursor-pointer;
+    @apply text-white bg-slate-500 rounded-lg py-1 px-2 hover:bg-slate-400 hover:cursor-pointer;
+}
+
+.weather-icon {
+    width: 5rem;
 }

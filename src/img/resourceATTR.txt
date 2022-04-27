@@ -1,0 +1,19 @@
+Wind Icon: "<a href="https://www.flaticon.com/free-icons/wind" title="wind icons">Wind icons created by QudaDesign - Flaticon</a>"
+
+Sun Icon: "<a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Freepik - Flaticon</a>"
+
+Rainy Icon: "<a href="https://www.flaticon.com/free-icons/rain" title="rain icons">Rain icons created by bqlqn - Flaticon</a>"
+
+Basic Thermometer: "<a href="https://www.flaticon.com/free-icons/fever" title="fever icons">Fever icons created by Freepik - Flaticon</a>"
+
+Celsius: "<a href="https://www.flaticon.com/free-icons/celsius" title="celsius icons">Celsius icons created by Smartline - Flaticon</a>"
+
+Compass: "<a href="https://www.flaticon.com/free-icons/compass" title="compass icons">Compass icons created by Pixel perfect - Flaticon</a>"
+
+Humidity: "<a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by adriansyah - Flaticon</a>"
+
+Visibility: "<a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by adriansyah - Flaticon</a>"
+
+Cloud: "<a href="https://www.flaticon.com/free-icons/cloud-computing" title="cloud computing icons">Cloud computing icons created by Freepik - Flaticon</a>"
+
+Barometer/Gauge: "<a href="https://www.flaticon.com/free-icons/meter" title="meter icons">Meter icons created by Freepik - Flaticon</a>"
