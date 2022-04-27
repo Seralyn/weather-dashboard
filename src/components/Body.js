@@ -233,7 +233,7 @@ const Body = (props) => {
             {/* ASTRONOMICAL END */}
 
             {/* FORECAST START */}
-            <div className="text-black text-4xl mt-12">Forecast</div>
+            {/* <div className="text-black text-4xl mt-12">Forecast</div>
             <div className="mt-8 flex flex-wrap gap-6 justify-evenly text-black px-32">
                 <div className="card">
                     <div>
@@ -265,7 +265,7 @@ const Body = (props) => {
                         %
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* FORECAST END */}
         </div>
     );
